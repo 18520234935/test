@@ -4,8 +4,10 @@ pipeline {
    
     stage('安装依赖') {
       steps {
-        sh 'echo 1',
-        sh 'docker build -t test .'
+         'echo 1',
+        'docker build -t test .'
+
+
       }
     }
     
